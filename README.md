@@ -7,7 +7,7 @@ You can move in horizontal direction with arrow keys and you have to collect coi
 
 ## Installation
 
-You have to install pygame in your python. to install enter this command
+You have to install pygame in your python, to install enter this command in your cmd
 ```
 pip install pygame
 
