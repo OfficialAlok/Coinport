@@ -28,7 +28,7 @@ In Coinport, you control a character that can move left and right using the arro
 ## Usage
 To start the game, navigate to the directory where the game files are located and run:
 ```sh
-python coinport.py
+python main.py
 ```
 
 ## Controls
