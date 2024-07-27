@@ -67,9 +67,9 @@ class Coinport:
     def check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_LEFT:
+                if event.key == pygame.K_a:
                     self.to_left = True
-                if event.key == pygame.K_RIGHT:
+                if event.key == pygame.K_d:
                     self.to_right = True
 
                 if event.key == pygame.K_SPACE:
@@ -106,9 +106,9 @@ class Coinport:
 
             
             if event.type == pygame.KEYUP:
-                if event.key == pygame.K_LEFT:
+                if event.key == pygame.K_a:
                     self.to_left = False
-                if event.key == pygame.K_RIGHT:
+                if event.key == pygame.K_d:
                     self.to_right = False
 
             if event.type == pygame.QUIT:

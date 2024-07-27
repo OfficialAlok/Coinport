@@ -32,8 +32,8 @@ python main.py
 ```
 
 ## Controls
-- **Left Arrow Key**: Move left
-- **Right Arrow Key**: Move right
+- **Key A**: Move left
+- **Key D**: Move right
 
 ## Difficulty Levels
 You can select the difficulty level at the start of the game:
