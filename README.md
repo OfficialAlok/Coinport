@@ -21,7 +21,7 @@ In Coinport, you control a character that can move left and right using the arro
    ```
 3. Clone this repository or download the source code:
    ```sh
-   git clone https://github.com/yourusername/coinport.git
+   git clone https://github.com/OfficialAlok/coinport.git
    cd coinport
    ```
 
