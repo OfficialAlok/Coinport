@@ -67,9 +67,9 @@ class Coinport:
     def check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_LEFT:
                     self.to_left = True
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_RIGHT:
                     self.to_right = True
 
                 if event.key == pygame.K_SPACE:
@@ -106,9 +106,9 @@ class Coinport:
 
             
             if event.type == pygame.KEYUP:
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_LEFT:
                     self.to_left = False
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_RIGHT:
                     self.to_right = False
 
             if event.type == pygame.QUIT:
@@ -177,7 +177,7 @@ class Coinport:
         elif self.end:
             end_font = pygame.font.SysFont("Arial", 25)
             end_text = end_font.render(f"Game Over! Collected Coins: {self.points}", True, "Red")
-            end_info = end_font.render(f"Press: Return for restart and Escape for exit", True, "black")
+            end_info = end_font.render(f"Press: Enter for restart and Escape for exit", True, "black")
             pygame.draw.rect(self.window, "white", (200, 200, 900, 100))
             self.window.blit(end_text, (self.width/2-end_text.get_width()/2,220))
             self.window.blit(end_info, (self.width/2-end_info.get_width()/2,260))
