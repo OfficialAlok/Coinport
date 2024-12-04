@@ -42,7 +42,7 @@ You can select the difficulty level at the start of the game:
 - Press `2` for Medium
 - Press `3` for Hard
 
-# Game Screenshots
+## Game Screenshots
 - start window
 ![1st](https://github.com/OfficialAlok/Coinport/blob/main/start.png?raw=true)
 
