@@ -67,9 +67,9 @@ class Coinport:
     def check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_LEFT:
+                if event.key == pygame.K_a:
                     self.to_left = True
-                if event.key == pygame.K_RIGHT:
+                if event.key == pygame.K_d:
                     self.to_right = True
 
                 if event.key == pygame.K_SPACE:
@@ -106,9 +106,9 @@ class Coinport:
 
             
             if event.type == pygame.KEYUP:
-                if event.key == pygame.K_LEFT:
+                if event.key == pygame.K_a:
                     self.to_left = False
-                if event.key == pygame.K_RIGHT:
+                if event.key == pygame.K_d:
                     self.to_right = False
 
             if event.type == pygame.QUIT:
@@ -167,7 +167,7 @@ class Coinport:
             x_start = self.width/2
 
             s_font = pygame.font.SysFont("Arial bold", 24)
-            start_text = s_font.render("Use LEFT, RIGHT arrow keys to move and SPACE for telport to door", True, (117, 106, 182))
+            start_text = s_font.render("Use A, D arrow keys to move and SPACE for telport to door", True, (117, 106, 182))
             choose_level = s_font.render("choose Level: Press(1 for easy, 2 for normal, 3 for hard)", True, (85, 173, 155))
             pygame.draw.rect(self.window, "white", (200, 200, 900, 100))
             self.window.blit(start_text, (x_start - start_text.get_width()/2,220))
