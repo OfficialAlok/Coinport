@@ -51,6 +51,3 @@ You can select the difficulty level at the start of the game:
 
 - End or Restart window
 ![End](https://github.com/OfficialAlok/Coinport/blob/main/end.png?raw=true)
-
-## Credits
-Coinport is developed by Alok Kumar. The game is created using the Pygame library in Python.
